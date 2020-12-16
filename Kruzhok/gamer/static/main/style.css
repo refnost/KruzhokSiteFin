@@ -1,6 +1,13 @@
 body{
     background: #D4D4D4;
 }
+.koefficent{
+    position: relative;
+    left: 20px; top: 40px;
+    text-align: center;
+    font-size: 90px;
+    font-family: "Arial Black";
+}
 .hh{
     position: relative;
     left: 255px;
