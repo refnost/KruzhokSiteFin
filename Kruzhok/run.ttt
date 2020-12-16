@@ -1,0 +1,4 @@
+<tr><th><label for="id_talent">Talentid:</label></th><td><input type="text" name="talent" value="ddddddd" class="inp" placeholder="Enter your TalentID" maxlength="16" required id="id_talent"></td></tr>
+<tr><th><label for="id_mail">Mail:</label></th><td><input type="text" name="mail" value="dddddddddd" class="inp" placeholder="Enter your mail" maxlength="128" required id="id_mail"></td></tr>
+<tr><th><label for="id_epicid">Epicid:</label></th><td><input type="text" name="epicid" value="0" class="inp" placeholder="Enter your epicid" maxlength="128" required id="id_epicid"></td></tr>
+<tr><th><label for="id_overwatchname">Overwatch_name:</label></th><td><input type="text" name="overwatchname" value="0" class="inp" placeholder="Enter your overwatchname" maxlength="128" required id="id_overwatchname"></td></tr>

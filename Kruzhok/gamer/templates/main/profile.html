@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="{% static "main/style.css" %}">
+	<title>Prototype</title>
+</head>
+<body>
+{% for user in form %}
+	<div class="board">
+		<div class="top">
+			<img src="https://talent.kruzhok.org/images/talent_logo_black.svg" alt="avatar">
+		</div>
+
+		<div class="profile">
+			<img class="request1" src= "{{ user.icon }}" >
+			<h4 class="request4">{{ user.nickfn }}</h4>
+			<h4 class="request5">{{ user.overwatchname }}</h4>
+			<h6 class="talentid">TalentID: {{ user.talent }}</h6>
+		</div>
+		<div class="info">
+			<h3>Hello</h3>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, voluptatibus pariatur totam ea non debitis ratione, doloremque, maiores, et aliquam repellat laborum soluta. Fugiat repudiandae saepe ipsam iste quo labore.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, voluptatibus pariatur totam ea non debitis ratione, doloremque, maiores, et aliquam repellat laborum soluta. Fugiat repudiandae saepe ipsam iste quo labore.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, voluptatibus pariatur totam ea non debitis ratione, doloremque, maiores, et aliquam repellat laborum soluta. Fugiat repudiandae saepe ipsam iste quo labore.</p>
+		</div>
+		<div class="player">
+			<div class="game">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Overwatch_circle_logo.svg">
+				<h3>OverWatch</h3>
+				<span class="request2">{{ user.teamplayow }}</span>
+			</div>
+			<div class="game">
+				<img src="https://ru.wizcase.com/wp-content/uploads/2020/06/fortnite-logo.jpg">
+				<h3>FortNite</h3>
+				<span class="request3">{{ user.teamplayfn }}</span>
+			</div>
+			<div class="game"></div>
+		</div>
+		<div class="games">
+		</div>
+	</div>
+	<div class="footer"></div>
+{% endfor %}
+</body>
+</html>

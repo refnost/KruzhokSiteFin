@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static "main/style.css" %}">
+    <title>Prototype</title>
+</head>
+<body>
+<div class="board">
+    <div class="infomain">
+        <h3 class="hh">Hello</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, voluptatibus pariatur totam ea non debitis ratione, doloremque, maiores, et aliquam repellat laborum soluta. Fugiat repudiandae saepe ipsam iste quo labore.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, voluptatibus pariatur totam ea non debitis ratione, doloremque, maiores, et aliquam repellat laborum soluta. Fugiat repudiandae saepe ipsam iste quo labore.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, voluptatibus pariatur totam ea non debitis ratione, doloremque, maiores, et aliquam repellat laborum soluta. Fugiat repudiandae saepe ipsam iste quo labore.</p>
+    </div>
+    <div class="gamesmain">
+        <form method="post">
+        {% csrf_token %}
+
+        {{ form.talent }}<br>
+        {{ form.mail }}<br>
+        {{ form.epicid }}<br>
+        {{ form.overwatchname }}<br>
+
+        <button type="submit" class="addgames">Отправить</button>
+        </form>
+    </div>
+</div>
+<div class="footer"></div>
+</body>
+</html>
