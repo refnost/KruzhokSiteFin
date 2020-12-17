@@ -2,8 +2,8 @@ Readme
 =====================
 >>Используется: python 3.8.6 x64, django 3.1.4.
 Чтобы установить все необходимые модули, необходимо прописать следующие команды в консоль и убедиться в установке:
-# pip3 install django
-# pip3 install requests
+` pip3 install django`<br>
+` pip3 install requests`<br>
 
 В проекте используются следующие модули: time, requests, re, django.
 
