@@ -33,7 +33,7 @@ def fortnite(IDEPIC):
 		TeamPlayerK = round(TeamPlayerK, 3)
 	except KeyError:
 		TeamPlayerK = ''
-		name = ''
+		name = 'Unknow'
 	return TeamPlayerK, name
 
 
