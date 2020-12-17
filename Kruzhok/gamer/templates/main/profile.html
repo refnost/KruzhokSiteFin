@@ -22,7 +22,8 @@
 		</div>
 		<div class="info">
 			<h3>Hello</h3>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, voluptatibus pariatur totam ea non debitis ratione, doloremque, maiores, et aliquam repellat laborum soluta. Fugiat repudiandae saepe ipsam iste quo labore.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, voluptatibus pariatur totam ea non debitis ratione, doloremque, maiores, et aliquam repellat laborum soluta. Fugiat repudiandae saepe ipsam iste quo labore.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, voluptatibus pariatur totam ea non debitis ratione, doloremque, maiores, et aliquam repellat laborum soluta. Fugiat repudiandae saepe ipsam iste quo labore.</p>
+			<p>Здесь отображается ваша статистика по играм. Если данные об играх не введены, то значение командности будет нулевым. Если Вы ввели лишь данные об одной игре, то и вся статистика будет основываться на этой игре. Слева, рядом с иконкой пользователя отображены оба Ваших никнейма в разных играх. Ниже приведена статистика командности по каждой игре, а ещё ниже большими цифрами отображена общая статистика командной игры. Ниже вы можете посмотреть: какой статус соответствует Вашим значениям.</p>
+			<img height="300px" class="stat" src="{% static "main/stat.svg" %}">
 		</div>
 		<div class="player">
 			<div class="game">
@@ -36,7 +37,6 @@
 				<span class="request3">{{ user.teamplayfn }}</span>
 				<span class="koefficent">{{ user.teamplay }}</span>
 			</div>
-			<div class="game"></div>
 		</div>
 		<div class="games">
 		</div>
