@@ -3,9 +3,9 @@ body{
 }
 .koefficent{
     position: relative;
-    left: 20px; top: 40px;
+    left: -80px; top: 90px;
     text-align: center;
-    font-size: 90px;
+    font-size: 40px;
     font-family: "Arial Black";
 }
 .hh{
