@@ -27,7 +27,7 @@ DEBUG = True
 
 # change ALLOWED_HOSTS to your ip
 ALLOWED_HOSTS = []
-# manage.py runserver 192.168.1.234:8888
+# manage.py runserver 127.0.0.1:8888
 
 # Application definition
 
